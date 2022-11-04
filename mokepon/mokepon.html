@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+           <title>MOKEPON!</title>
+    </head>
+    <body class="background">
+        <script src="./js/mokepon.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+
+        <section id="seleccionar-mascota">
+            <h1 class="titulo">MOKEPON!</h1>
+
+            <h2 class="subtitulo">Elige tu mascota:</h2>
+            
+            <div class="tarjetas">
+                <label class="tarjeta_de_mokepon" for="hipodoge">
+                    <p>Hipodoge</p>
+                    <img src="./assets/Hipodoge.png" alt="Hipodoge">
+                </label>
+                <input type="radio" name="mascota" id="hipodoge" />
+                
+                <label class="tarjeta_de_mokepon" for="capipepo">
+                    <p>Capipepo</p>
+                    <img src="./assets/Capipepo.png" alt="Capipepo">
+                </label>
+                <input type="radio" name="mascota" id="capipepo" />
+                
+                <label class="tarjeta_de_mokepon" for="ratigueya">
+                    <p>Ratigueya</p>
+                    <img src="./assets/Ratigueya.png" alt="Ratigueya">
+                </label>
+                <input type="radio" name="mascota" id="ratigueya" />
+            </div>
+            
+             
+            <button id='boton-mascota'>Elegir</button>
+
+         </section>
+
+        <section id="seleccionar-ataque">
+
+            <h1 class="titulo">MOKEPON! 🔥💧🌱</h1>
+            <h2>Elige tu ataque:</h2>
+
+            <p>Tu mascota<span id="mascota_jugador"> </span> tiene <span id="vidas_jugador">3</span> vidas</p>
+            <p>Las mascota<span id="mascota_enemigo"> </span> del enemigo tiene <span id="vidas_enemigo" >3</span> vidas</p>
+             
+            <p>
+                <button id="boton_fuego" >Fuego 🔥</button>
+                <button id="boton_agua">Agua 💧</button>
+                <button id="boton_tierra">Tierra 🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+           
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton_reiniciar">Reiniciar</button>
+        </section>
+    </body>
+    <footer>
+        <p class="foter">By Nicolas Pitton</p>
+    </footer>
+</html>     

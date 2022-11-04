@@ -1,0 +1,6 @@
+tp
+crear un codigo qr para uns restaurante
+
+escanear codigo qr, desde la pagina web o app celular poder tomar pedido e ir a un carrito
+desde escritorio, poder editar los precios, agregar, borrar y ver, recibir pedidos desde carrito 
+    
